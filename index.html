@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<form id="ShareableResume">
+    
+    <h1> SHRE ABLE RESUME </h1>
+    <fieldset > 
+        <legend> Personal Information</legend >
+
+            <label for="userName" > User Name:</label>
+            <input type="text" placeholder="Enter  user name" id="userName" required>
+
+        <label for="yourName" > Your Name:</label>
+        <input type="text" placeholder="Enter Your Name" id="yourName" required>
+<br>
+        <label for="userGmail" > G-mail:</label>
+        <input type="email" placeholder="Enter Your g mail" id="userGmail" required>
+<br><br>
+        <label for="PhoneNumber" > Phone Number:</label>
+        <input type="tel"placeholder="Enter Your Phone Number" id="PhoneNumber" required>
+<br><br>
+        <label for="otherURL" > Other-Links:</label>
+        <textarea placeholder=" other links like github/linkedin" id="otherURL" rows="2"></textarea>
+
+    </fieldset>
+<fieldset> 
+    <legend> Education</legend>
+<label for="userEducation"> Education: </label>
+<textarea  id="userEducation" placeholder="Enter Your Degree" rows="3" required></textarea>
+
+<label for="institute"> Institute Name: </label>
+<textarea id="institute"  placeholder="Enter Institute Name" rows="3" required></textarea>
+
+<label for="GRADES"> GPA / GRADES: </label>
+<textarea id="GRADES"  placeholder="Enter Your Grades" rows="3" required></textarea>
+</fieldset>
+<fieldset>
+    <legend> Experience</legend>
+    <label for="experience"> Experience:</label>
+    <textarea id="experience"  placeholder="Enter Your Expereinces" rows="5" required></textarea>
+</fieldset>
+
+<fieldset>
+ <legend> Skills</legend>
+    <label for="skills"> Skills:</label>
+    <textarea id="skills"  placeholder="Enter Your Skills" rows="5" required></textarea>
+</fieldset>
+<br>
+
+<button id="generateresume "  class="button"> Generate Resume </button>
+</form>
+
+<br>
+<!--  editable resume  -->
+<div id="resume-display"  contenteditable="true">
+<!--  resume display -->
+</div>
+<!--  section for download button  -->
+<div id="shareablelinkcontainer" style="display: none;">
+<h2> Shareable link </h2>
+<p> Here is your Link to view and edit your resume:</p>
+<a href="#" id="ShareableLink" target="_blank"></a>
+<br><br>
+<button id="downloadpdf"> Download pdf</button>
+</div>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
