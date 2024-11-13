@@ -1,0 +1,106 @@
+  body{ 
+    font-family: cursive;
+    font-weight: bold;
+background-color: #ecc6d5;;
+
+
+ } 
+form {
+   background-color: rgb(238, 195, 224);
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+   padding: 20px;
+   width: 550px;
+   margin-left:300px;
+border-radius: 15px;
+border: 2px solid #846eb0;
+}
+
+h1{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+color:#a74b45;
+}
+
+fieldset{
+   border: 2px solid ;
+   border-color:#7459a9;
+   border-radius: 8px;
+   margin-bottom:20px;
+   padding:20px;
+   color:brown;
+   background-color: rgb(232, 232, 218);
+}
+
+legend{
+   text-align: left;
+   font-weight: bold;
+}
+
+textarea{
+   border-radius: 15px;;
+   border-color: #ef776e;
+   border-style: 2px solid;
+}
+
+
+
+label{
+   display: block;
+margin-top: 10px;
+border-color:  #db291d;
+border-radius: 20px;
+box-sizing: border-box;
+
+}
+
+input,textarea{
+   
+   margin-top: 4px;
+   padding: 8px;
+   width: calc(100% - 1px);
+   border: 2px solid ;
+   border-radius: 10px;
+   box-sizing: border-box;
+    border-color: #ef776e;
+
+}
+.button{
+   display: block;
+   background-color:#2E0289;
+   border-radius: 25px;
+   color:white;
+   font-weight: bolder;
+   width:100%;
+   height:40px;
+}
+button:hover{
+   color:blueviolet;
+
+}
+
+   #resume-display {
+      max-width:550px;
+      padding: 20px;
+      border: 2px solid rgb(216, 157, 165);
+      border-radius: 8px;
+      background-color: #eaccd8;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      margin-left:300px;
+      /*  for editing resume  */
+      outline: none;
+  }
+
+  #resume-display h3 {
+      color:rgb(181, 173, 101);
+      font-weight: 100;
+  }
+#resume-display p{
+   font-weight: lighter;
+}
+#downloadpdf{
+   height: 50px;
+   width:100px;
+   background-color: #2E0289;
+   color:aliceblue;
+   border-radius: 15px;
+}
